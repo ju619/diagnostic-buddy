@@ -2,7 +2,7 @@
 
 # by NanoCure AI, a Jackie White Lab company
 
-I wanted people to be able to download our AML model (public version), run it on their own machine, and see what it calls on a cell they pick. Start with a de-identified image of a stained smear. Mark the scale bar, draw a box around one cell, and the model will give you a **blast** or **non-blast** call.
+I wanted researchers to be able to download our AML model (public version), run it on their own machine, and see what it calls on a cell they pick. Start with a de-identified image of a stained smear. Mark the scale bar, draw a box around one cell, and the model will give you a **blast** or **non-blast** call.
 
 ## Run it locally
 
