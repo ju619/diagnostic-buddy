@@ -79,4 +79,4 @@ You pick the cell. The model can still return a label if your box contains only 
 
 ## Licenses
 
-© 2026 NanoCure AI. The app code and practice image use the BSD 3-Clause license. The compiled runtime and its weights have separate noncommercial terms. The bundled font has its own license. [App code](LICENSE) · [Runtime and weights](runtime/LICENSE.txt) · [Font](aml/fonts/bitstream-vera-license.txt)
+© 2026 Jackie White Lab. The app code and practice image use the BSD 3-Clause license. The compiled runtime and its weights have separate noncommercial terms. The bundled font has its own license. [App code](LICENSE) · [Runtime and weights](runtime/LICENSE.txt) · [Font](aml/fonts/bitstream-vera-license.txt)
