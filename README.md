@@ -1,4 +1,4 @@
-# diagnositic-buddy
+# diagnostic-buddy
 
 # by Jackie White Lab
 
