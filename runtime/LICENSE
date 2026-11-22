@@ -1,0 +1,16 @@
+Jackie White Lab AML Community Model
+Copyright (c) 2026 NanoCure AI
+
+The compiled analysis component (including its embedded model) is distributed as runtime/community.wasm.part1
+and runtime/community.wasm.part2. It is licensed under the Creative
+Commons Attribution-NonCommercial-NoDerivatives 4.0 International license
+(SPDX: CC-BY-NC-ND-4.0).
+
+Licensor and attribution: Jackie White Lab
+Work: Jackie White Lab AML Community Model, release 2
+Full license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+License summary: https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+The BSD license in the project root applies to the application code and
+synthetic practice image. Rights in the compiled component are governed by the license above.
+

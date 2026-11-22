@@ -1,0 +1,24 @@
+:root { color-scheme: light; font-family: "Source Sans 3", "Segoe UI", sans-serif; color:#192d32; background:#f5f7f6 }
+* {box-sizing:border-box}
+body {margin:0} header,main,footer {width:min(1180px,92%);margin:auto}
+header {display:flex;gap:1.3rem;align-items:center;padding:1.4rem 0;border-bottom:1px solid #cbd6d4;font-size:.88rem}
+.brand {font-weight:750;font-size:1.15rem;color:#164d4c} .intro {margin:2.6rem 0 1.7rem}
+h1 {font-family:"Source Sans 3","Segoe UI",sans-serif;font-size:clamp(2.25rem,5vw,3.5rem);letter-spacing:-.045em;margin:0}
+h2 {font-size:1.15rem;margin:0 0 .5rem} p {line-height:1.5;margin:.5rem 0 1rem}
+.layout {display:grid;grid-template-columns:minmax(0,2.3fr) minmax(260px,1fr);gap:1.25rem;align-items:start}
+section,aside {background:white;border:1px solid #ccd8d5;border-radius:12px;padding:1.2rem}
+.tools,.actions {display:flex;gap:.6rem;flex-wrap:wrap}.tools {margin-bottom:1rem}
+button,.upload {background:white;color:#234644;border:1px solid #a8bab7;font:inherit;font-weight:600;border-radius:6px;padding:.55rem .9rem;cursor:pointer}
+.upload {position:relative;overflow:hidden}.upload input {position:absolute;inset:0;opacity:0;cursor:pointer;width:100%}
+button:disabled {opacity:.45;cursor:default}.primary,.upload {background:#155752;color:white;border-color:#155752}
+:focus-visible,.upload:focus-within {outline:3px solid #da9231;outline-offset:2px}
+.stage {position:relative;display:grid;place-items:center;min-height:230px;background:#e9eeee;border-radius:5px;overflow:hidden}
+canvas {max-width:100%;height:auto;max-height:70vh;display:block;touch-action:manipulation;cursor:crosshair}
+#empty {position:absolute;text-align:center;pointer-events:none;color:#415f60;max-width:80%}
+#caption,.muted,details {font-size:.9rem;color:#4d6465}
+details {margin:1rem 0}summary {cursor:pointer}details label {display:block;margin:.6rem 0}
+details input {display:block;width:100%;padding:.4rem;margin-top:.25rem;font:inherit}
+hr {border:0;border-top:1px solid #dae2df;margin:1.2rem 0}
+#message {color:#854319}dl {margin:0}dl div {display:flex;justify-content:space-between;gap:.7rem;padding:.55rem 0;border-top:1px solid #e3e8e6}
+dd {margin:0;font-weight:650;text-align:right}footer {margin:1.4rem auto;padding:1rem 0;color:#516667;font-size:.85rem}
+@media(max-width:760px){.layout{grid-template-columns:1fr}.intro{margin-top:1.4rem}section,aside{padding:1rem}}
